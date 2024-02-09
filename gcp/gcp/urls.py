@@ -20,5 +20,5 @@ from first import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello', views.HelloView.as_view(), name="hello"),
+    path('', views.HelloView.as_view(), name="hello"),
 ]
